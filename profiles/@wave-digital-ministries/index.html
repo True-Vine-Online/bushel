@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GitFriends</title>
+    <link rel="shortcut icon" href="https://source.jborgarts.com/GitFriends/source/icons/git-fork.svg">
+    <!--GitFriends Profile-->
+    <script src="https://source.jborgarts.com/GitFriends/source/menus.js"></script>
+    <script src="https://source.jborgarts.com/GitFriends/source/icons.js"></script>
+    <script src="./userload.js"></script>
+    <link rel="stylesheet" href="https://source.jborgarts.com/GitFriends/source/bulma/css/bulma.css">
+  </head>
+
+  <body onload="topMenu_load(), user_load()">
+    <header>
+      <div id="topMenu">
+        <!--./menus.js-->
+      </div>
+    </header>
+<section style="padding: 10%;">
+  <!--Profile Content-->
+  <div class="card">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48">
+            <img
+              src=""
+              alt="User icon"
+              id="profileIcon"
+            />
+          </figure>
+        </div>
+        <div class="media-content">
+          <p id="profileName" class="title is-4"> <!--Controlled by profile script--></p>
+          <p id="profileGit" class="subtitle is-6"> <!--Controlled by profile script--></p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div id="profileTagline">
+          <!--Controlled by profile script-->
+        </div>
+        <div id="profileContent">
+          <!--Controlled by profile script-->
+        </div>
+
+        <br />
+        <!--Sand Box Begin-->
+
+        <!--This is your zone. Highlight projects; make a mini webpage; code a minigame;
+        It is up to you!-->
+
+        <!--MUST ABIDE BY COMMUNITY AND GITHUB GUIDELINES-->
+
+        <!--Sand Box End-->
+        <br />
+        <!--DO NOT EDIT-->
+        <!--The below time stamp will be updated to match the time of profile approval/upload-->
+        <time id="profileTime"></time>
+      </div>
+    </div>
+    <footer class="card-footer" id="profileLinks">
+
+      <!--Controlled by profile script-->
+
+    </footer>
+  </div>
+</section>
+
+  </body>
+
+
+  <script type="text/javascript">
+    function topMenu(){
+
+        //Menu Row 1//
+        document.getElementById("topMenu").innerHTML = '<div class="btn-group" style="padding-bottom: 15px" role="group" aria-label="Basic example"><a href="./memelab.html" type="button" class="btn btn-dark">Border Text</a><a href="./memelab-classic.html" type="button" class="btn btn-dark">Classic</a><a href="./memelab-1x2.html" type="button" class="btn btn-dark">1x2</a> <!-- is not ready <a href="./memelab-2x1.html" type="button" class="btn btn-dark">2x1</a>-->'
+
+
+
+    }
+  </script>
+</html>
