@@ -2,17 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitFriends</title>
     <link rel="shortcut icon" href="https://source.jborgarts.com/GitFriends/source/icons/git-fork.svg">
     <!--GitFriends Profile-->
     <script src="https://source.jborgarts.com/GitFriends/source/menus.js"></script>
     <script src="https://source.jborgarts.com/GitFriends/source/icons.js"></script>
     <script src="./userload.js"></script>
+    <script src="./status.js"></script>
     <link rel="stylesheet" href="https://source.jborgarts.com/GitFriends/source/bulma/css/bulma.css">
   </head>
 
-  <body onload="topMenu_load(), user_load()">
+  <body onload="topMenu_load(), user_load(), userStatus_load()">
     <header>
       <div id="topMenu">
         <!--./menus.js-->
@@ -51,13 +52,13 @@
 
         <!--This is your zone. Highlight projects; make a mini webpage; code a minigame;
         It is up to you!-->
-        <h5>Latest Platform Development Update</h5>
-        <p>While we have already launched the recommended algorithm and profile development templates and scripts, we still have a lot to build!</p>
-        <p>We are currently working on a profile search feature to help developers Git connected through more than the recommended feature.</p>
 
         <!--MUST ABIDE BY COMMUNITY AND GITHUB GUIDELINES-->
 
         <!--Sand Box End-->
+        <div class="content" id="profileStatus">
+          <!--Profile status is designed for you to host a .js on your own git to update remotely-->
+        </div>
         <br />
         <!--DO NOT EDIT-->
         <!--The below time stamp will be updated to match the time of profile approval/upload-->

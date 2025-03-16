@@ -1,6 +1,8 @@
 /*GitFriends Profile Algorithm*/
 
 var profiles = Array('@JacobBorgProgramming','@wave-digital-ministries','@Cartoomb','@GitFriends');
+
+
 var profileDirectory = 'https://source.jborgarts.com/GitFriends/profiles/'
 
 
