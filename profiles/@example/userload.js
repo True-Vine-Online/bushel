@@ -17,7 +17,7 @@ function user_load(){
   /*Edit the below section to update your profile's links*/
   /*DO NOT CHANGE LINKED SERVICES. THIS MAY BREAK FEATURES OR RESULT IN YOUR PROFILE NOT BEING PUBLISHED*/
   /*Service links*/
-  var githubLink = 'https://github.com/JacobBorgProgramming'
+  var githubLink = ''
   var gitlabLink = ''
   var gitLink = ''
   var xLink = ''
