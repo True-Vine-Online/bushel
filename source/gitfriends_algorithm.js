@@ -1,6 +1,6 @@
 /*GitFriends Profile Algorithm*/
 
-var profiles = Array('@JacobBorgProgramming','@wave-digital-ministries','@Cartoomb');
+var profiles = Array('@JacobBorgProgramming','@wave-digital-ministries','@Cartoomb','@GitFriends');
 var profileDirectory = 'https://source.jborgarts.com/GitFriends/profiles/'
 
 
@@ -36,6 +36,18 @@ function profileRec(){
       var profileName = 'Cartoomb'
       var profileIcon = 'https://avatars.githubusercontent.com/u/136763548?s=200&v=4'
       var profileTagline = 'Digging up unheard stories'
+      document.getElementById("profileIcon_1").src = profileIcon
+      document.getElementById("profileName_1").innerHTML = profileName
+      document.getElementById("profileGit_1").innerHTML = profiles_selected_1
+      document.getElementById("profileTagline_1").innerHTML = profileTagline
+      document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
+      document.getElementById("profileLink_1").innerHTML = profiles_selected_1
+    }
+
+    if (profiles_selected_1=='@GitFriends') {
+      var profileName = 'GitFriends'
+      var profileIcon = './profiles/@GitFriends/GitFriends.png'
+      var profileTagline = '<h3>Git friends through coding!</h3>'
       document.getElementById("profileIcon_1").src = profileIcon
       document.getElementById("profileName_1").innerHTML = profileName
       document.getElementById("profileGit_1").innerHTML = profiles_selected_1
