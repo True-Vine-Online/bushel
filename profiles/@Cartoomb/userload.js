@@ -20,7 +20,7 @@ function user_load(){
   var githubLink = 'https://github.com/Cartoomb'
   var gitlabLink = ''
   var gitLink = ''
-  var xLink = 'https://twitter.com/cartoomb'
+  var xLink = 'https://x.com/cartoomb'
   var instagramLink = 'https://www.instagram.com/cartoomb/'
 
   /*Service Vars*/
