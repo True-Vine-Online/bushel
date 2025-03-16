@@ -29,7 +29,9 @@ if (x.style.display === "none") {
 }
 }
 
-
+function searchModal_active(){
+    document.getElementById("searchModal").class = 'modal is-active'
+}
 
 /*function searching(){
   var x = document.getElementById("myUL");
@@ -43,6 +45,6 @@ function searched(){
 document.getElementById("searchButt").style.visibility = "hidden";
 document.getElementById("myUL").style.visibility = "visible";
 document.getElementById("topbutton").style.visibility = "visible";
-document.getElementById("myInput").style.width = "90%";
+/*document.getElementById("myInput").style.width = "90%";*/
 document.getElementById("myUL").style.height = "100%";
 }

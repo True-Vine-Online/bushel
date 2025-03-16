@@ -1,0 +1,74 @@
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitFriends - A platform for coders</title>
+  <link rel="shortcut icon" href="https://source.jborgarts.com/GitFriends/source/icons/git-fork.svg">
+  <!--GitFriends Profile-->
+  <script src="./source/menus.js"></script>
+  <script src="https://source.jborgarts.com/GitFriends/source/menus.js"></script>
+  <script src="https://source.jborgarts.com/GitFriends/source/icons.js"></script>
+  <script src="https://source.jborgarts.com/GitFriends/source/gitfriends_algorithm.js"></script>
+  <script src="./source/gitfriends_algorithm.js"></script>
+  <script src="https://source.jborgarts.com/GitFriends/source/search.js"></script>
+  <script src="./source/search.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+  <link rel="stylesheet" href="https://source.jborgarts.com/GitFriends/source/bulma/css/bulma.css">
+</head>
+
+<body onload="searching()" style="padding: 15px;">
+
+
+<section>
+
+    <div class="con1" style="background-image: url(./media/network2.jpg);background-position: center;">
+      <p style="padding:0mm;"></p>
+
+      <div>
+<script src="./search.js" charset="utf-8"></script>
+
+
+        <center style=""><input style="" class="input is-link" type="text" id="myInput" onkeydown="searched()" onkeyup="myFunction()"  placeholder="Explore GitFriends"><button hidden id="searchButt" style="margin-left: 5%;" onclick="searched()" class="buttonX_green" name="button">Search</button></center>
+        <div class="index">
+          <ul id="myUL" style="visibility: hidden; height: 0mm; overflow-y: hidden;">
+            <div id="tech">
+            <!--Index-->
+            <li><a href="https://source.jborgarts.com/GitFriends/profiles/@GitFriends" target="_parent" rel="noreferrer">@GitFriends <p hidden>social business</p></a></li>
+            <li><a href="https://source.jborgarts.com/GitFriends/profiles/@JacobBorgProgramming" target="_parent" rel="noreferrer">@JacobBorgProgramming <p hidden>html css js Christian author photographer single san diego</p></a></li>
+            <li><a href="https://source.jborgarts.com/GitFriends/profiles/@Cartoomb" target="_parent" rel="noreferrer">@Cartoomb <p hidden>animation Christian media business</p></a></li>
+            <li><a href="https://source.jborgarts.com/GitFriends/profiles/@wave-digital-ministries" target="_parent" rel="noreferrer">@wave-digital-ministries <p hidden>Christian media ministry education</p></a></li>
+
+            <!--end-->
+          </ul>
+  </div>
+
+    </div>
+
+  <a href="#"  style="visibility: hidden;" id="topbutton" class="topbutton" hidden>Top</a>
+  <!--<li><a href="https://www.squarespace.com/" rel="noreferrer">placeholder.com/ <p name="SEO Content" hidden><p> <p class="pc_s">meta description</p></a></li>-->
+
+</section>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
