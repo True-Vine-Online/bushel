@@ -4,6 +4,7 @@ function topMenu_load(){
 
 }
 
+
 function footMenu_load(){
 
   document.getElementById("footMenu").innerHTML = '<div class="content has-text-centered"><div class="grid"><div class="cell"> <a href="https://bushel.truevine.online/">Home</a> </div><div class="cell"> <a href="https://github.com/True-Vine-Online/bushel/issues/new">Report</a> </div><div class="cell"> <a href="https://github.com/True-Vine-Online/bushel/wiki">Documentation</a> </div><div class="cell"> <a href="https://bushel.truevine.online/contentpolicies.html">Policies</a> </div></div><p><strong>Bushel</strong> by <a href="https://truevineonline.com/">Truevine Online</a>.</p> <p>©2025 Truevine Online LLC</p></div>'
