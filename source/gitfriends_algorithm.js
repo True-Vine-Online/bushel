@@ -3,7 +3,7 @@
 var profiles = Array('@JacobBorgProgramming','@wave-digital-ministries','@Cartoomb','@GitFriends');
 
 
-var profileDirectory = 'https://source.jborgarts.com/GitFriends/profiles/'
+var profileDirectory = 'https://bushel.truevine.online/profiles/'
 
 
 function profileRec(){

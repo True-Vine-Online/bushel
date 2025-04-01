@@ -1,56 +1,67 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="../index.html">
-      <img width="200px" src="./GitFriends.svg" alt="">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    </a>
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a href="../index.html" class="navbar-item">
-        Home
-      </a>
-
-      <a href="https://github.com/JacobBorgProgramming/GitFriends/wiki" target="_blank" class="navbar-item">
-        Documentation
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
+<nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://bushel.truevine.online/source/BushelLettermark.svg" width="100px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="https://bushel.truevine.online/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/True-Vine-Online/bushel/wiki">Documentation</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
           </a>
-          <a href="https://github.com/JacobBorgProgramming/GitFriends/issues/new" target="_blank" class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a href="https://github.com/JacobBorgProgramming/GitFriends/issues/new" target="_blank" class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
-    </div>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://bushel.truevine.online/about.html">About</a></li>
+            <li><a class="dropdown-item" target="_blank" href="https://github.com/True-Vine-Online/bushel/issues/new">Contact</a></li>
+            <li><a class="dropdown-item" href="https://bushel.truevine.online/contentpolicies.html">Policies</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://github.com/True-Vine-Online/bushel/issues/new" target="_blank">Report an issue</a></li>
+          </ul>
+        </li>
+      </ul>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a href="" class="button is-light">
-            Code a Profile
-          </a>
-        </div>
-      </div>
+        <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Search</button>
+
     </div>
   </div>
 </nav>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Search Bushel</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center><embed src="./search.html" width="70%" height="auto" style="overflow-y: auto;"></center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
+</script>
