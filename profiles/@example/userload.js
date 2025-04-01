@@ -25,11 +25,11 @@ function user_load(){
 
   /*Service Vars*/
   /*DO NOT EDIT LINK ICONS*/
-  var githubIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-github.svg'
-  var gitlabIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-gitlab.svg'
-  var gitIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-git.svg'
-  var xIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-x.svg'
-  var instagramIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-instagram.svg'
+  var githubIcon = 'https://bushel.truevine.online/source/icons/brand-github.svg'
+  var gitlabIcon = 'https://bushel.truevine.online/source/icons/brand-gitlab.svg'
+  var gitIcon = 'https://bushel.truevine.online/source/icons/brand-git.svg'
+  var xIcon = 'https://bushel.truevine.online/source/icons/brand-x.svg'
+  var instagramIcon = 'https://bushel.truevine.online/source/icons/brand-instagram.svg'
 
   /*Edit the below innerHTML function to update your profile's links*/
   document.getElementById("profileLinks").innerHTML = '<a href="'+githubLink+'" class="card-footer-item"> <img src="'+githubIcon+'" width="50px" alt="Social Button"> </a>'
