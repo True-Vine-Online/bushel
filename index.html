@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bushel - A Truevine network</title>
-    <link rel="shortcut icon" href="https://bushel.truevine.online/source/BushelIcon_fullsizeAlt.svg">
+    <link rel="shortcut icon" href="https://bushel.truevine.online/source/BushelIconB.svg">
     <!--GitFriends Profile-->
     <script src="./source/menus.js"></script>
     <!--
     <script src="https://bushel.truevine.online/source/menus.js"></script>
-  -->
+    -->
     <script src="https://bushel.truevine.online/source/icons.js"></script>
     <script src="https://bushel.truevine.online/source/gitfriends_algorithm.js"></script>
     <script src="./source/gitfriends_algorithm.js"></script>
-    <link rel="stylesheet" href="https://bushel.truevine.online/source/bulma/css/bulma.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
     <script src="https://cdn.counter.dev/script.js" data-id="49ff21d8-7cbe-4f83-b436-97b778216657" data-utcoffset="-7"></script>
   </head>
 
-  <body onload="topMenu_load(), profileRec(), footMenu_load()">
+  <body onload="topMenu_load(), footMenu_load(), profileRec()">
     <header>
       <div id="topMenu">
         <!--./menus.js-->
+
       </div>
     </header>
 
@@ -29,7 +32,7 @@
       <div class="content">
         <h1>Welcome to</h1>
         <p>
-          <img src="./source/BushelLettermark.svg" width="50%" alt="">
+          <img src="./source/BushelIconWordmark.svg" width="50%" alt="">
         </p>
       </div>
 
@@ -44,7 +47,6 @@
 
         <p>So what are you waiting for? Time to start adding to your Bushel.</p>
       </div>
-
     </section>
 
 
@@ -55,34 +57,41 @@
 
       </div>
       <!--Profile Content-->
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img
-                  src=""
-                  alt="User icon"
-                  id="profileIcon_1"
-                />
-              </figure>
+      <section style="padding: 10%;" class="d-flex justify-content-center">
+        <!--Profile Content-->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <div class="container text-center">
+              <div class="row align-items-start">
+                <div class="col">
+                  <figure class="figure">
+                    <img
+                      class="figure-img rounded"
+                      width="60px"
+                      src=""
+                      alt="User icon"
+                      id="profileIcon_1"
+                    />
+                  </figure>
+                </div>
+                <div class="col">
+                  <b>
+                    <p id="profileName_1" class="h3"> <!--Controlled by profile script--></p>
+                    <p id="profileGit_1" class="h6"> <!--Controlled by profile script--></p>
+                  </b>
+                </div>
+              </div>
             </div>
-            <div class="media-content">
-              <p id="profileName_1" class="title is-4"> <!--Controlled by algorithm script--></p>
-              <p id="profileGit_1" class="subtitle is-6"> <!--Controlled by algorithm script--></p>
+            <div class="card-text" id="profileTagline_1">
+              <!--Controlled by profile script-->
             </div>
           </div>
-
-          <div class="content">
-            <div id="profileTagline_1">
-              <!--Controlled by algorithm script-->
+          <div class="card-body">
+            <div class="" id="profileLinks" style="text-align: center">
             </div>
-            <a id="profileLink_1">
-              <!--Controlled by algorithm script-->
-            </a>
           </div>
         </div>
-      </div>
+      </section>
 
     </section>
 
@@ -90,21 +99,12 @@
       <center><div class="content">
         <h2>Like what ya see?</h2>
         <p>
-          <a href="https://github.com/JacobBorgProgramming/GitFriends/wiki/Scripting-A-Profile" target="_blank"><button class="button is-white">Make a Profile</button></a>
+          <a href="https://github.com/JacobBorgProgramming/GitFriends/wiki/Scripting-A-Profile" target="_blank"><button class="btn btn-light">Make a Profile</button></a>
         </p>
       </div></center>
     </section>
 
-    <section style="padding-left: 10%; padding-right: 10%; padding-bottom: 35px;">
-      <div class="content">
 
-
-        <center><embed src="./source/search.html" width="70%" height="300" style="overflow-y: auto;"></center>
-
-
-
-      </div>
-    </section>
 
 
 
