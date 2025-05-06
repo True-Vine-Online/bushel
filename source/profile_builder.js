@@ -9,6 +9,7 @@ function user_build(){
     var pgit = document.getElementById("profileGit").value
     var ptagline = document.getElementById("profileTagline").value
     var pcontent = document.getElementById("profileContent").value
+    var plinks = document.getElementById("profileLinks").value
 
     
     /*Service Vars*/
@@ -27,9 +28,10 @@ function user_build(){
     var l5 = 'document.getElementById("profileTagline").innerHTML = '+'"'+ptagline+'"'
     var l6 = 'document.getElementById("profileContent").innerHTML = '+'"'+pcontent+'"'
     var l7 = 'document.getElementById("profileLinks").innerHTML = /*LINKS*/'
+    var l8 = plinks
     var close = '}'
 
     //Output command
-    document.getElementById("profile_code").innerHTML = po+l1+pc+po+l2+pc+po+l3+pc+po+l4+pc+po+l5+pc+po+l6+pc+po+l7+pc+po+close+pc
+    document.getElementById("profile_code").innerHTML = po+l1+pc+po+l2+pc+po+l3+pc+po+l4+pc+po+l5+pc+po+l6+pc+po+l7+pc+po+l8+pc+po+close+pc
 
 }
