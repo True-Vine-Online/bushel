@@ -1,6 +1,6 @@
 /*GitFriends Profile Algorithm*/
 
-var profiles = Array('@JumpIn','@JacobBorgProgramming','@wave-digital-ministries','@Cartoomb','@GitFriends');
+var profiles = Array('@Bushel','@JumpIn','@JacobBorgProgramming','@wave-digital-ministries','@Cartoomb','@GitFriends');
 
 
 var profileDirectory = 'https://bushel.truevine.online/profiles/'
@@ -9,6 +9,18 @@ var profileDirectory = 'https://bushel.truevine.online/profiles/'
 function profileRec(){
     var profiles_selected_1 = profiles[Math.floor(Math.random()*profiles.length)];
     console.log(profiles_selected_1)
+
+    if (profiles_selected_1=='@Bushel') {
+      var profileName = 'Bushel'
+      var profileIcon = 'https://bushel.truevine.online/profiles/@Bushel/userimg.svg'
+      var profileTagline = 'A Bushel of ministries'
+      document.getElementById("profileIcon_1").src = profileIcon
+      document.getElementById("profileName_1").innerHTML = profileName
+      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/'+profiles_selected_1+'/">'+profiles_selected_1+'</a>'
+      document.getElementById("profileTagline_1").innerHTML = profileTagline
+      document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
+      document.getElementById("profileLink_1").innerHTML = profiles_selected_1
+    }
 
     if (profiles_selected_1=='@JumpIn') {
       var profileName = 'JumpIn Northwest'
