@@ -38,6 +38,6 @@ function user_load(){
 
 
   /*Below line will be updated by admin staff to reflect profile creation/update time*/
-  document.getElementById("profileTime").innerHTML = '5:00 PM - 6 Mat 2025'
+  document.getElementById("profileTime").innerHTML = '5:00 PM - 6 May 2025'
 
 }
