@@ -16,7 +16,7 @@ function profileRec(){
       var profileTagline = 'Into all the world starts here'
       document.getElementById("profileIcon_1").src = profileIcon
       document.getElementById("profileName_1").innerHTML = profileName
-      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@JumpIn/"'+profiles_selected_1+'</a>'
+      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@JumpIn/">'+profiles_selected_1+'</a>'
       document.getElementById("profileTagline_1").innerHTML = profileTagline
       document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
       document.getElementById("profileLink_1").innerHTML = profiles_selected_1
@@ -28,7 +28,7 @@ function profileRec(){
       var profileTagline = 'Just a chill guy screaming (Programming) into the void (Cyberspace).'
       document.getElementById("profileIcon_1").src = profileIcon
       document.getElementById("profileName_1").innerHTML = profileName
-      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@JacobBorgProgramming/"'+profiles_selected_1+'</a>'
+      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@JacobBorgProgramming/">'+profiles_selected_1+'</a>'
       document.getElementById("profileTagline_1").innerHTML = profileTagline
       document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
       document.getElementById("profileLink_1").innerHTML = profiles_selected_1
@@ -40,7 +40,7 @@ function profileRec(){
       var profileTagline = 'Making waves for His Kingdom.'
       document.getElementById("profileIcon_1").src = profileIcon
       document.getElementById("profileName_1").innerHTML = profileName
-      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@wave-digital-ministries/"'+profiles_selected_1+'</a>'
+      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@wave-digital-ministries/">'+profiles_selected_1+'</a>'
       document.getElementById("profileTagline_1").innerHTML = profileTagline
       document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
       document.getElementById("profileLink_1").innerHTML = profiles_selected_1
@@ -52,7 +52,7 @@ function profileRec(){
       var profileTagline = 'Digging up unheard stories'
       document.getElementById("profileIcon_1").src = profileIcon
       document.getElementById("profileName_1").innerHTML = profileName
-      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@Cartoomb/"'+profiles_selected_1+'</a>'
+      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@Cartoomb/">'+profiles_selected_1+'</a>'
       document.getElementById("profileTagline_1").innerHTML = profileTagline
       document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
       document.getElementById("profileLink_1").innerHTML = profiles_selected_1
@@ -64,7 +64,7 @@ function profileRec(){
       var profileTagline = '<h3>Git friends through coding!</h3>'
       document.getElementById("profileIcon_1").src = profileIcon
       document.getElementById("profileName_1").innerHTML = profileName
-      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@GitFriends/"'+profiles_selected_1+'</a>'
+      document.getElementById("profileGit_1").innerHTML = '<a href="https://bushel.truevine.online/profiles/@GitFriends/">'+profiles_selected_1+'</a>'
       document.getElementById("profileTagline_1").innerHTML = profileTagline
       document.getElementById("profileLink_1").href = profileDirectory+profiles_selected_1
       document.getElementById("profileLink_1").innerHTML = profiles_selected_1
