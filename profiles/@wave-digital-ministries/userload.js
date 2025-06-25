@@ -30,6 +30,7 @@ function user_load(){
   var gitIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-git.svg'
   var xIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-x.svg'
   var instagramIcon = 'https://source.jborgarts.com/GitFriends/source/icons/brand-instagram.svg'
+  var externalIcon = 'https://bushel.truevine.online/source/icons/external-link.svg'
 
   /*Edit the below innerHTML function to update your profile's links*/
   document.getElementById("profileLinks").innerHTML = '<a href="'+githubLink+'" class="card-footer-item"> <img src="'+githubIcon+'" width="50px" alt="Social Button"> </a><a href="'+xLink+'" class="card-footer-item"> <img src="'+xIcon+'" width="50px" alt="Social Button"> </a><a href="'+instagramLink+'" class="card-footer-item"> <img src="'+instagramIcon+'" width="50px" alt="Social Button"> </a>'
