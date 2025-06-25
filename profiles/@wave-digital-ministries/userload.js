@@ -22,6 +22,7 @@ function user_load(){
   var gitLink = ''
   var xLink = 'https://x.com/wdm_net'
   var instagramLink = 'https://www.instagram.com/wdm_net/'
+  var externalLink = 'https://www.wavedm.net/'
 
   /*Service Vars*/
   /*DO NOT EDIT LINK ICONS*/
@@ -33,7 +34,7 @@ function user_load(){
   var externalIcon = 'https://bushel.truevine.online/source/icons/external-link.svg'
 
   /*Edit the below innerHTML function to update your profile's links*/
-  document.getElementById("profileLinks").innerHTML = '<a href="'+githubLink+'" class="card-footer-item"> <img src="'+githubIcon+'" width="50px" alt="Social Button"> </a><a href="'+xLink+'" class="card-footer-item"> <img src="'+xIcon+'" width="50px" alt="Social Button"> </a><a href="'+instagramLink+'" class="card-footer-item"> <img src="'+instagramIcon+'" width="50px" alt="Social Button"> </a>'
+  document.getElementById("profileLinks").innerHTML = '<a href="'+githubLink+'" class="card-footer-item"> <img src="'+githubIcon+'" width="50px" alt="Social Button"> </a><a href="'+xLink+'" class="card-footer-item"> <img src="'+xIcon+'" width="50px" alt="Social Button"> </a><a href="'+instagramLink+'" class="card-footer-item"> <img src="'+instagramIcon+'" width="50px" alt="Social Button"> </a><a href="'+externalLink+'" class="card-footer-item"> <img src="'+externalIcon+'" width="50px" alt="Social Button"> </a>'
     /*<a href="'+[REPLACE WITH SERVICE VAR]+'" class="card-footer-item"> <img src="'+[REPLACE WITH SERVICE ICON]+'" width="50px" alt="Social Button"> </a>*/
 
 

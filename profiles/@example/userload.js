@@ -22,6 +22,7 @@ function user_load(){
   var gitLink = ''
   var xLink = ''
   var instagramLink = ''
+  var externalLink = ''
 
   /*Service Vars*/
   /*DO NOT EDIT LINK ICONS*/
