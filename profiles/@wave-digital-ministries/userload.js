@@ -12,7 +12,7 @@ function user_load(){
   document.getElementById("profileTagline").innerHTML = 'Making waves for His Kingdom.'
 
   /*Edit below line to update your profile's body content*/
-  document.getElementById("profileContent").innerHTML = ''
+  document.getElementById("profileContent").innerHTML = '<i>Wave Discipleship Ministries</i>, formally <i>Wave Digital Ministries</i>, is an education focussed ministry. Our goal is to make Biblical education available to all.<p> <a href="https://www.wavedm.net/" target="_BLANK">Learn More</a></p>'
 
   /*Edit the below section to update your profile's links*/
   /*DO NOT CHANGE LINKED SERVICES. THIS MAY BREAK FEATURES OR RESULT IN YOUR PROFILE NOT BEING PUBLISHED*/
@@ -38,6 +38,6 @@ function user_load(){
 
 
   /*Below line will be updated by admin staff to reflect profile creation/update time*/
-  document.getElementById("profileTime").innerHTML = '5:22 PM - 15 Mar 2025'
+  document.getElementById("profileTime").innerHTML = '7:22 PM - 24 Jun 2025'
 
 }
